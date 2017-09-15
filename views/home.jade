@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+html(lang="en")
+head
+    meta(charset="UTF-8")
+    link(rel="stylesheet", href="css/style.css")
+    script(src="js/jq.js")
+    script(src="js/script.js")
+    title Document
+body
+    #wraper
+        h1 Добро пожаловать в чат!
+        .chat
+            .history
+                p История сообщений:
+                span#hist
+        .message
+                span Сейчас в чате 
+                span#now
+        .inpblock
+            span Ваше имя:
+            input(type="text" required)#yourname
+            span Сообщение:
+            input(type="text" required)#yourmess
+            #send
+                |Отправить!
